@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image:
+     linear-gradient(to right ,rgb(255,192,197) 50% ,rgb(201,238,230) 50%);
+    
+     font-family: "Poppins",sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top :0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+ul {
+    display: flex;
+    list-style: none;
+   padding: 0;
+
+}
+ul li{
+    margin: 0 10px;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    color:rgb(82, 81, 81)
+}
+section{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+div{
+    display: block;
+    width: 60% ;
+    height: 60%;
+    border-radius: 15px;
+    box-shadow: 8px 8px 14px 8px rgba(0,0, 0,0.2);
+    position: absolute;
+    left: 250px;
+    top:150px;
+
+}
+.p1{
+    position: absolute;
+    top:60px;
+    left: 210px;
+    font-size: 20px;
+}
+.p2{
+    
+    position :absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 0;
+
+}
+.comment{
+    width: 300px;
+    height: 370px;
+    justify-content: center;
+    padding: 40px;
+    margin: ;
+    
+    border: 1px solid rgba(0, 128, 0, 0.6);
+    border-radius: 25px;
+    background-color: #A0D683;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}   
+#c2{
+    position: absolute;
+    left: 300px;
+    top: 690px;
+
+}
+#c3{
+    position: absolute;
+    left: 600px;
+    top: 690px;
+}
+
+.personne{
+    color: #ecefec;
+    padding-top:40px ;
+    text-align: right;
+   }
+.app{
+    
+    text-align: right;
+}
